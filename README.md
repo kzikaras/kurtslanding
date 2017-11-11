@@ -1,2 +1,0 @@
-# kurtslanding
-My personal website

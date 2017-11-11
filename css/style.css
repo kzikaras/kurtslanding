@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Poiret One', cursive;
+  background-image: url("https://images.unsplash.com/photo-1484599183043-808e0f4ec80e?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #20231E;
+}
+
+a {
+  color: #20231E;
+}
+
+.fade-in {
+  animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+h1 {
+  font-size: 500%;
+}
+
+span {
+  margin: 10px;
+}
+
+.hero {
+  margin-top: 200px;
+  text-align: center;
+  margin-right: auto;
+}
+
+.icons {
+  margin: 20px;
+  font-size: 40px;
+}

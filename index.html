@@ -1,36 +1,130 @@
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Kurt Zikaras</title>
-  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112056220-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+      gtag('config', 'UA-112056220-1');
+    </script>
+    <meta charset="UTF-8">
+    <title>Kurt Zikaras</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <script src="https://use.fontawesome.com/ae29a597b0.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  </head>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <script src="https://use.fontawesome.com/ae29a597b0.js"></script>
-  <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
-<body>
-  <div class="container hero fade-in">
-  <h1>Kurt Zikaras</h1>
-  <h2>Developer, Musician, Dog Dad</h2>
-  <h3>Follow me:</h3>
-  <div class="icons">
-    <a href="https://resume.creddle.io/resume/djrv13c7yq3"><span class="fa fa-file-text"></span></a>
-    <a href="https://www.linkedin.com/in/kurtzikaras/"><span class="fa fa-linkedin-square"></span></a>
-    <a href="https://github.com/kzikaras"><span class="fa fa-github"></span></a>
-    <a href="https://www.instagram.com/deathcabforkurty/"><span class="fa fa-instagram"></span></a>
-    <a href="mailto: kurtzikaras@gmail.com"><span class="fa fa-paper-plane-o"></span></a>
+  <body>
+    <div id="image">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" id="about-button">About</a></li>
+              <li><a href="#"id="portfolio-button">Portfolio</a></li>
+              <li><a href="#" id="contact-button">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container hero fade-in">
+        <h1>Kurt Zikaras</h1>
+        <h2>Developer, Musician, Dog Dad</h2>
+        <h3>Let's connect:</h3>
+        <div class="icons">
+          <a href="https://resume.creddle.io/resume/djrv13c7yq3"><span class="fa fa-file-text"></span></a>
+          <a href="https://www.linkedin.com/in/kurtzikaras/"><span class="fa fa-linkedin-square"></span></a>
+          <a href="https://github.com/kzikaras"><span class="fa fa-github"></span></a>
+          <a href="https://www.instagram.com/deathcabforkurty/"><span class="fa fa-instagram"></span></a>
+          <a href=""><span class="fa fa-medium"></span></a>
+          <a href="mailto: kurtzikaras@gmail.com"><span class="fa fa-paper-plane-o"></span></a>
+        </div>
+      </div>
+    </div>
+    
   </div>
-</div>
-  
-<script  src="js/index.js"></script>
+  <div class="scroll-div">
+    <div id="scroll-content" class="container text-center">
+      <div id="about-section">
+        <h1>About</h1>
+        <div class="row">
+          <div class="col-md-12 well">
+            <h2>Hi, I'm Kurt. I am a software developer with a focus on web technologies. I am knowledgeable in Ruby on Rails, Javascript, jQuery and Python. I also enjoy keeping my technical skills sharp through constant self-study. Additionally, I have experience working in a completely remote setting.</h2>
+          </div>
+        </div>
+      </div>
 
-</body>
+      <div id="portfolio-section">
+        <h1>Portfolio</h1>
+        <div class="row">
+          <!--First project-->
+          <div class="col-lg-6">
+            <div class="thumbnail">
+              <img src="https://i.imgur.com/91w5IBO.png" alt="...">
+              <div class="caption">
+                <h2>HelpOut</h2>
+                <p>HelpOut is an app that allows users to provide each other with technical support by signing up for a free account</p>
+                <p><a href="https://github.com/kzikaras/HelpOut" class="btn btn-primary" role="button">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!--Second project-->
+          <div class="col-lg-6">
+            <div class="thumbnail">
+              <img src="https://i.imgur.com/PhOTyi7.png" alt="...">
+              <div class="caption">
+                <h2>GetMetrics</h2>
+                <p>GetMetrics allows a user to sign up for a free account and keep track of website metrics such as visits</p>
+                <p><a href="https://github.com/kzikaras/GetMetrics" class="btn btn-primary" role="button">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Third project-->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="thumbnail">
+              <img src="https://i.imgur.com/LNqxShV.png" alt="...">
+              <div class="caption">
+                <h2>BlocJams</h2>
+                <p>BlocJams is a clone of a popular music player which I built in vanilla Javascript and refactored using jQuery</p>
+                <p><a href="https://github.com/kzikaras/bloc-jams" class="btn btn-primary" role="button">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <!--Fourth project-->
+          <div class="col-lg-6">
+            <div class="thumbnail">
+              <img src="https://i.imgur.com/wqKhpaW.png" alt="...">
+              <div class="caption">
+                <h2>BlocChat</h2>
+                <p>BlocChat is a simple chat application built in Angular that allows a user to enter a username and start a chatroom.</p>
+                <p><a href="https://github.com/kzikaras/Bloc-chat" class="btn btn-primary" role="button">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact-section">
+        <h1>Contact</h1>
+        <div class="row">
+          <div class="col-md-12 well">
+            <h2>Email: kurtzikaras@gmail.com</h2>
+            <h2>Phone: (203)823-8420</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script  src="js/index.js"></script>
+
+  </body>
 </html>

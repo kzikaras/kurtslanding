@@ -73,7 +73,7 @@ span {
   background-attachment: fixed;
   height: 100%;
   width: 100%;
-  background-image: url("https://images.unsplash.com/photo-1484599183043-808e0f4ec80e?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  background-image: url(../background-min.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
